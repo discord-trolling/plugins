@@ -7,6 +7,8 @@ const { MyCatLikesFirebaseServer } = require("my-cat-likes-firebase");
  */
 module.exports.Plugin = class extends Plugin {
   constructor() {
+    super();
+
     this.type = "client";
 
     this.initializeFirebase = (configPath) => {
