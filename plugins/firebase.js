@@ -5,7 +5,7 @@ const { MyCatLikesFirebaseServer } = require("my-cat-likes-firebase");
  * A plugin for making Firebase easy to use as the DB for your bot
  * @class
  */
-module.exports.Plugin = class extends Plugin {
+module.exports.firebase = class extends Plugin {
   constructor() {
     super();
 
